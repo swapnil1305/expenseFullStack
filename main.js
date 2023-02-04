@@ -15,10 +15,10 @@ function saveToLocalStorage(event){
         document.body.innerHTML = document.body.innerHTML + "<h3> Something went wrong </h3>"
         console.log(err);
     })
-
     //localStorage.setItem(obj.description, JSON.stringify(obj))
         //showNewExpenseOnScreen(obj)
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
     axios.get("http://localhost:6000/getexpenses")

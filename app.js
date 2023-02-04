@@ -7,6 +7,7 @@ const Expense = require('./models/expense');
 const cors = require('cors');
 const app = express();
 const expenseRouter = require('./routes/expense');
+
 app.use(cors());
 app.use(bodyParser.json({ extended: false }));
 app.use(expenseRouter);

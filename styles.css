@@ -31,6 +31,8 @@ body {
       content: "MD";
     }
   }
+
+
   
   @media (min-width: 992px) {
     body::before {
