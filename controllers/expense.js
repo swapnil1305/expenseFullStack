@@ -1,6 +1,5 @@
 const Expense = require('../models/expense');
 
-
 exports.getexpenses = async (req, res, next) => {
     console.log("hiii");
     try{

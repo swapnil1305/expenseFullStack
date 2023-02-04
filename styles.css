@@ -32,8 +32,6 @@ body {
     }
   }
 
-
-  
   @media (min-width: 992px) {
     body::before {
       content: "LG";

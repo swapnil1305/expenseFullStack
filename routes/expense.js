@@ -10,5 +10,4 @@ router.post('/postexpenses', expController.postexpenses);
 
 router.delete('/deleteexpenses', expController.deleteexpenses);
 
-
 module.exports = router;

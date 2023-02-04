@@ -19,7 +19,6 @@ function saveToLocalStorage(event){
         //showNewExpenseOnScreen(obj)
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
     axios.get("http://localhost:6000/getexpenses")
     .then((response) => {

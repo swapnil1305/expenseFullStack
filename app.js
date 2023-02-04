@@ -37,7 +37,6 @@ app.use(expenseRouter);
 //         console.log('Get expenses is failing', JSON.stringify(err))
 //     }
 // })
-
 Expense.sync()
 .then(result => { 
     app.listen(6000);
